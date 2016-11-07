@@ -1,0 +1,118 @@
+body {
+  background-color: #BBE0E9;
+  background-repeat: repeat;
+  margin: 5px dotted blue;
+}
+
+.navbar-header {
+  margin-bottom: 20px;
+
+}
+
+.navbar .navbar-brand img {
+  position: relative;
+  max-height: 100px;
+}
+
+
+.menu-row {
+  background-color: honeydew;
+}
+
+.menu-row h1 {
+  color: #FE9248;
+  font-family: 'Holtwood One SC', serif;
+  font-size: 4em;
+  margin-top: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-row h3 {
+  color: black;
+  font-family: 'Holtwood One SC', serif;
+  font-
+  font-size: 2em;
+  margin-top: 0px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+ul.leaders {
+    font-family: 'Gloria Hallelujah', cursive;
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;;
+    overflow-y: hidden;;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: honeydew
+  }
+
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: honeydew
+  }
+
+.menu-items h1 {
+  color: #FE9248;
+  font-family: 'Holtwood One SC', serif;
+  font-size: 4em;
+  margin-top: 0px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.about-info h1 {
+  color: #FE9248;
+  font-family: 'Holtwood One SC', serif;
+  font-size: 3.5em;
+  margin-top: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+.about-info p {
+  font-family: 'Holtwood One SC', serif;
+  text-decoration: underline;
+  margin-left: 50px;
+}
+
+.about-info ul li {
+  list-style: none;
+  font-family: 'Holtwood One SC', serif;
+  font-size: 0.7em;
+}
+
+.map-info iframe {
+  width: 100%;
+  border: 0 allowfullscreen;
+  pointer-events:none;
+}
+.nav-pills > li > a{
+  border: medium none;
+  color: black;
+}
+.nav-pills > li > a:hover{
+    border-radius: 5px;
+    color: red;
+}
