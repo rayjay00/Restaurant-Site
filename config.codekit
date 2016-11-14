@@ -11,17 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/fruit.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 379781,
-		"inputAbbreviatedPath": "\/fruit.jpeg",
-		"outputAbbreviatedPath": "\/fruit.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -38,17 +27,6 @@
 		"initialSize": 137727,
 		"inputAbbreviatedPath": "\/locologo.png",
 		"outputAbbreviatedPath": "\/locologo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/squared_metal.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16789,
-		"inputAbbreviatedPath": "\/squared_metal.png",
-		"outputAbbreviatedPath": "\/squared_metal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
