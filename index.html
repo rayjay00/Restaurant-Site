@@ -1,121 +1,333 @@
 <!DOCTYPE HTML>
+
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <!--Google Fonts Begin-->
-  <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-  <!--Google Fonts End-->
-  <title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <title>Burrito Loco | Fayetteville, Arkansas Mexican Restaurant </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href=style.css>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff"> </head>
 
-  </title>
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/animate.css">
-<!--CSS End -->
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<link rel="stylesheet" href=/style.css>
-</head>
-
-<body>
-  <div class="container">
-  <header role="banner">
-    <nav id="navbar-primary" class="navbar" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="extend navbar-extend" id="navbar-primary-collapse">
-          <ul class="nav navbar-nav">
-            <li id="left-nav"><a href="#">Menu</a></li>
-            <li><a href="#"><img id="logo-navbar-middle" src="locologo.png" width="200" alt="Logo Thing main logo"></a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-full -->
-    </nav>
-  </header>
-</div><!-- header role="banner" -->
-  <section>
+<body data-spy="scroll" data-target=".navbar">
     <div class="container">
-      <div class="menu-row row-fluid col-sm-12">
-        <h1>Menu</h1>
-      <div class="menu-row menu-items col-sm-4">
-        <h3>Tacos</h3>
-        <ul class="leaders">
-          <li><span>Asada - Steak</span>
-          <span>1.95</span>
-          <li><span>Pollo - Chicken</span>
-          <span>1.95</span>
-          <li><span>Al Pastor - Marinated Pork</span>
-          <span>1.95</span>
-          <li><span>Lengua - Tongue</span>
-          <span>1.95</span>
-          <li><span>Chorizo - Sausage</span>
-          <span>1.95</span>
-          <li><span>Carnitas - Shredded Pork</span>
-          <span>1.95</span>
-          <li><span>Tripa - Intestince</span>
-          <span>1.95</span>
-          <li><span>Buche - Throat</span>
-          <span>1.95</span>
-        </ul>
-      </div>
-      <div class="menu-row menu-items col-sm-4">
-        <h3>Burritos</h3>
-          <ul class="leaders">
-            <li><span>Chicken</span>
-            <span>1.95</span>
-            <li><span>Chorizo</span>
-            <span>1.95</span>
-            <li><span>Almond Prawn Cocktail</span>
-            <span>7.95</span>
-            <li><span>Bruschetta</span>
-            <span>5.25</span>
-            <li><span>Margherita Pizza</span>
-            <span>10.95</span>
-          </ul>
-          <h3>Enchiladas</h3>
-            <ul class="leaders">
-              <li><span><strong>Chicken</strong></span>
-              <span>1.95</span>
-              <li><span>Chorizo</span>
-              <span>1.95</span>
-            </ul>
-      </div>
-      <div class="menu-row menu-items col-sm-4">
-        <h3>Swag Test</h3>
-      </div>
-  </div>
-</div> <!-- .container-fluid-->
-</section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class = "about-info col-sm-3">
-        <h1>About</h1>
-        <h4>Hours<h4>
-        <ul>
-          <li>Sunday thru Wednesday: 10am - 8pm</li>
-          <li>Thursday thru Saturday: 10am - 9pm</li>
-        </ul>
-        <h4>Contact Us</h4>
-        <p><a id ="address" href="https://www.google.com/maps/place/Burrito+Loco/@36.0538758,-94.1902043,15z/data=!4m2!3m1!1s0x0:0xb950c51c7eaf881?sa=X&ved=0ahUKEwjM-dKtm6fQAhXLrlQKHeqfA4oQ_BIIeDAK">Burrito Loco<br>2155 W 6th Street<br>Fayetteville, AR 72701</a></p>
-        <a href="tel:+14795279577">(479) 527-9577</a>
-      </div>
-      <div class="map-info col-sm-9">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.624047817606!2d-94.1923983500432!3d36.05388011695583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c96f00dbd8fad1%3A0xb950c51c7eaf881!2sBurrito+Loco!5e0!3m2!1sen!2sus!4v1478462197178" width="600" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+        <nav class="navbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-target="#mynavbar" data-toggle="collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a class="navbar-brand" href="index.html"><img class="img-responsive" src="img/locologo.png" alt="Our logo"> </a>
+            </div>
+            <div class="navbar-collapse collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#Menu">Menu</a></li>
+                    <li><a class="page-scroll" href="#Story">Our Story</a></li>
+                    <li><a class="page-scroll" href="#About">About</a></li>
+                    <li><a href="https://www.chefshuttle.com/elburritoloconwa">Order Online</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-  </div>
-</section>
-
-
-
-
-
-
-    <script src="js/wow.min.js"></script>
-                  <script>
-                  new WOW().init();
-                  </script>
+    <section>
+        <div class="container">
+            <div class="row-fluid col-sm-12 menu-row" id="Menu">
+                <h1>Menu</h1>
+                <div class="menu-items col-lg-4 col-md-4 col-sm-12 item-text-wrap">
+                    <div class="loco-specials">
+                        <h3>Specials</h3>
+                        <ul class="daily-specials item-text-wrap">
+                            <li><span>Mondays: </span>$1.99 Margaritas, $1.99 Cheese Dip</li>
+                            <li><span>Tuesdays: </span>$1 Draft Beers, $1 Tacos, $1.99 Cheese Dip</li>
+                            <li><span>Wednesdays: </span>$1.99 Long Island Iced Teas, $3.99 Nachos Locos</li>
+                            <li><span>Thursdays: </span>$1 Draft Beers, $1.99 Margaritas, $1 Tacos, $1.99 Cheese Dip</li>
+                            <li><span>Fridays: </span>$1 Draft Beers, $1.99 Pi&ntildea Coladas, $1.99 Guacamole</li>
+                            <li><span>Saturdays: </span>$1 Tequila Sunrises, $1.99 Cuba Libres, $1.99 Guacamole</li>
+                            <li><span>Sundays: </span>$1.99 Margaritas, $3.99 Chimichangas, $5 Pitchers</li>
+                        </ul>
+                    </div>
+                    <h3>Burritos</h3>
+                    <ul class="leaders item-text-wrap">
+                        <li><span>Loco</span> <span>$2.99</span></li>
+                        <li><span>Durango</span> <span>$2.99</span></li>
+                        <li><span>Asada</span> <span>$1.49</span></li>
+                        <li><span>Pollo</span> <span>$1.49</span></li>
+                        <li><span>Pastor</span> <span>$1.49</span></li>
+                        <li><span>Carnitas</span> <span>$1.49</span></li>
+                        <li><span>Chorizo</span> <span>$1.49</span></li>
+                        <li><span>Chicharron</span> <span>$1.49</span></li>
+                        <li><span>Asada Especial</span> <span>$1.99</span></li>
+                        <li><span>Pollo Especial</span> <span>$1.99</span></li>
+                        <li><span>Lengua</span> <span>$2.10</span></li>
+                        <li><span>Buche</span> <span>$2.10</span></li>
+                        <li><span>Tripa</span> <span>$2.10</span></li>
+                        <li><span>Barbacoa</span> <span>$2.10</span></li>
+                    </ul>
+                    <br><img class="menu-photo img-responsive" src="img/locofood.jpg" alt="burrito with drinks" />
+                    <p class="caption">Come try one of our famous burritos with a Mexican drink, cocktail, or cold beer.</p>
+                    <h3>Tortas</h3>
+                    <p class="menu-info">With lettuce, tomato, onion, and avocado</p>
+                    <ul class="leaders">
+                        <li><span>Asada</span> <span>$5.99</span></li>
+                        <li><span>Pollo</span> <span>$5.99</span></li>
+                        <li><span>Al Pastor</span> <span>$5.99</span></li>
+                        <li><span>Carnitas - Fried Pork</span> <span>$5.99</span></li>
+                        <li><span>Chorizo - Sausage</span> <span>$5.99</span></li>
+                        <li><span>Jamon - Ham</span> <span>$5.99</span></li>
+                    </ul>
+                    <h3>Fin de Semana</h3>
+                    <ul class="leaders">
+                        <li><span>Menudo and Pozole</span> <span>$9.50</span></li>
+                        <li><span>Barbacoa (Por Libra)</span> <span>$9.50</span></li>
+                        <li><span>Carnitas (Por Libra)</span> <span>$9.50</span></li>
+                    </ul>
+                    <h3>Kids Menu</h3>
+                    <ul class="leaders">
+                        <li><span>Mini Quesadilla</span> <span>$2.50</span></li>
+                        <li><span>1 Taco</span> <span>$2.50</span>
+                            <p>With Rice and Beans</p>
+                        </li>
+                        <li><span>Mini Burrito</span> <span>$2.50</span></li>
+                        <li><span>Rice and Beans</span> <span>$2.50</span></li>
+                    </ul>
+                </div>
+                <div class="menu-items col-lg-4 col-md-4 col-sm-12">
+                    <h3>Tacos</h3>
+                    <ul class="leaders">
+                        <li><span>Asada - Steak</span> <span>$1.60</span></li>
+                        <li><span>Pollo - Chicken</span> <span>$1.60</span></li>
+                        <li><span>Al Pastor</span> <span>$1.60</span></li>
+                        <li><span>Carnitas</span> <span>$1.60</span></li>
+                        <li><span>Chorizo</span> <span>$1.60</span></li>
+                        <li><span>Chicharron</span> <span>$1.60</span></li>
+                        <li><span>Lengua</span> <span>$1.60</span></li>
+                        <li><span>Especial</span> <span>$1.99</span>
+                            <p>Choice of steak or chicken with cheese, onions, and mushrooms</p>
+                        </li>
+                        <li><span>Buche</span> <span>$2.10</span></li>
+                        <li><span>Tripa</span> <span>$2.10</span></li>
+                    </ul>
+                    <h3>Carne</h3>
+                    <p class="menu-info">Served with Spanish rice, beans, and corn tortillas</p>
+                    <ul class="leaders">
+                        <li><span>Carne Asada</span> <span>$7.99</span>
+                            <p>Grilled steak seasoned and covered with grilled onions</p>
+                        </li>
+                        <li><span>Fajitas</span> <span>$7.99</span>
+                            <p>Your choice of steak or chicken</p>
+                        </li>
+                        <li><span>Carnitas En Salsa Verde</span> <span>$7.99</span>
+                            <p>Fried pulled pork covered with our mild tomatillo sauce</p>
+                        </li>
+                        <li><span>Chile Colorado</span> <span>$7.99</span>
+                            <p>Beef on red guajillo sauce</p>
+                        </li>
+                        <li><span>Chile Relleno</span> <span>$7.99</span>
+                            <p>Poblano pepper stuffed with cheese</p>
+                        </li>
+                        <li><span>Lengua En Salsa Verde</span> <span>$7.99</span>
+                            <p>Beef tongue topped with our green sauce</p>
+                        </li>
+                        <li><span>Costillas Asadas</span> <span>$7.99</span>
+                            <p>Grilled ribs marinated</p>
+                        </li>
+                        <li><span>Asada Rojo</span> <span>$7.99</span>
+                            <p>Grilled steak seasoned and covered with grilled onions</p>
+                        </li>
+                        <li><span>Burrito Durango</span> <span>$7.99</span>
+                            <p>Three small burritos with shredded beef</p>
+                        </li>
+                        <li><span>Enchiladas de Carne</span> <span>$7.99</span>
+                            <p>With green or red sauce</p>
+                        </li>
+                        <li><span>Nopales Con Carne</span> <span>$7.99</span>
+                            <p>Cactus with meat on red sauce</p>
+                        </li>
+                        <li><span>Asado Verde</span> <span>$7.99</span>
+                            <p>Pork meat on green poblano sauce</p>
+                        </li>
+                    </ul> <img class="img-responsive" src="img/locofood2.jpg" alt="enchiladas" height="200" />
+                    <p class="caption">Make sure to try our beef enchiladas with rice and beans! You can choose from green or red sauce.</p>
+                    <h3>Gorditas</h3>
+                    <p class="menu-info">Homemade corn tortilla stuffed with your choice</p>
+                    <ul class="leaders">
+                        <li><span>Asada verde o rojo</span> <span>$2.99</span>
+                            <p>Pork meat in green or red sauce</p>
+                        </li>
+                        <li><span>Nopales con carne</span> <span>$2.99</span>
+                            <p>Cactus with meat in red sauce</p>
+                        </li>
+                        <li><span>Chicarron en salsa</span> <span>$2.99</span>
+                            <p>Pork grinds on green sauce</p>
+                        </li>
+                        <li><span>Asada o pollo con queso</span> <span>$2.99</span>
+                            <p>Steak or chicken with cheese</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-items col-lg-4 col-md-4 col-sm-12 item-text-wrap">
+                    <h3>A La Carte</h3>
+                    <ul class="leaders item-text-wrap">
+                        <li><span>Steak Quesadilla</span> <span>$4.99</span></li>
+                        <li><span>Chicken Quesadilla</span> <span>$4.99</span></li>
+                        <li><span>Tamales</span> <span>$2.10</span>
+                            <p>Choice of chicken with green sauce or pork with red sauce</p>
+                        </li>
+                        <li><span>Tostada</span> <span>$3.25</span>
+                            <p>Choice of chicken or steak with lettuce, tomato, onions, cheese, and sour cream</p>
+                        </li>
+                        <li><span>Ceviche Tostada</span> <span>$3.75</span>
+                            <p>Choice of chicken or steak with lettuce, tomato, onions, cheese, and sour cream</p>
+                        </li>
+                        <li><span>Sopes</span> <span>$2.39</span>
+                            <p>Fried tortilla with lettuce, tomato, and sour cream with your choice of pork, chicken, steak, or chorizo</p>
+                        </li>
+                    </ul> <img class="img-responsive" src="img/wecater.jpg" alt="Catering Available" />
+                    <h3>Veggie Dishes</h3>
+                    <ul class="leaders">
+                        <li><span>Burrito de Vegetales</span> <span>$3.99</span>
+                            <p>Veggie burrito</p>
+                        </li>
+                        <li><span>Tostadas de Frijolas</span> <span>$3.25</span>
+                            <p>Bean tostada</p>
+                        </li>
+                        <li><span>Chile Relleno</span> <span>$7.99</span>
+                            <p>Stuffed chile</p>
+                        </li>
+                        <li><span>Tacos de Vegetales</span> <span>$1.69</span>
+                            <p>Veggie tacos</p>
+                        </li>
+                        <li><span>Gordita de Vegetales</span> <span>$1.99</span>
+                            <p>Veggie gordita</p>
+                        </li>
+                        <li><span>Quesadilla de Vegetales</span> <span>$4.99</span>
+                            <p>Veggie Quesadilla</p>
+                        </li>
+                    </ul> <img class="img-responsive" src="img/locodrinks2.jpg" alt="drinks outside" height="230" />
+                    <p class="caption">We also serve drinks - come try a fresh margarita or local beer today!</p>
+                    <h3>Mariscos</h3>
+                    <p class="menu-info">Seafood served with Spanish rice, beans, and a corn tortilla</p>
+                    <ul class="leaders">
+                        <li><span>Camaron A La Diable</span> <span>$8.99</span>
+                            <p>Shrimp covered in hot sauce</p>
+                        </li>
+                        <li><span>Camarones Rancheros</span> <span>$8.99</span>
+                            <p>Shrimp in our special "ranchero sauce"</p>
+                        </li>
+                        <li><span>Camarones de Ajo</span> <span>$8.99</span>
+                            <p>Shrimp cooked with our exquisite Mexican garlic sauce</p>
+                        </li>
+                        <li><span>Camarones de Camaron</span> <span>$8.99</span>
+                            <p>Shrimp cocktail mixed with cilantro, onions, tomatoes, and our special red sauce</p>
+                        </li>
+                        <li><span>Caldo Mix</span> <span>$8.99</span>
+                            <p>Shrimp, fish, and vegetable soup</p>
+                        </li>
+                        <li><span>Filete A Diabla</span> <span>$8.99</span>
+                            <p>Tilapia covered with hot sauce</p>
+                        </li>
+                        <li><span>Filete A La Plancha</span> <span>$8.99</span>
+                            <p>Grilled tilapia</p>
+                        </li>
+                        <li><span>Tacos de Pescado</span> <span>$8.99</span>
+                            <p>3 Fish Tacos</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row-fluid col-sm-12 story-info" id="Story">
+                <h1>Our Story</h1>
+                <div class="story-content col-lg-6 col-md-6 col-sm-12"> <img class="img-responsive" src="img/newlocofront.jpg" alt="ribbon cutting at our opening" /> </div>
+                <div class="story-content col-lg-6 col-md-6 col-sm-12">
+                    <p>Established in 2011, Burrito Loco was founded by our family from Michoacán, Mexico. Built in the bustling city of Fayetteville, Arkansas, all the recipes are created by us. We like to experiment with new salsas every week and all of the chicken and pork tamales are made by hand. For those nights (or gamedays) you feel like having a drink, we have a stocked bar filled with top shelf alcohol, fresh margaritas, and local beer from Ozark and Fossil Cove. Come to Burrito Loco for the best Mexican food in Fayetteville, Arkansas!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="about-info col-lg-3 col-sm-12 col-md-3" id="About">
+                    <h1>About</h1>
+                    <ul>
+                        <li><span>Hours</span></li>
+                        <li>Sunday thru Wednesday:</li>
+                        <li>10am - 8pm</li>
+                        <li>
+                            <br>Thursday thru Saturday:</li>
+                        <li>10am - 9pm</li>
+                    </ul>
+                    <hr>
+                    <ul>
+                        <a href="https://www.google.com/maps/place/Burrito+Loco/@36.0538801,-94.192393,17z/data=!3m1!4b1!4m5!3m4!1s0x87c96f00dbd8fad1:0xb950c51c7eaf881!8m2!3d36.0538758!4d-94.1902043">
+                            <li><span>Contact Us</span></li>
+                            <li>Burrito Loco</li>
+                            <li>2155 W 6th Street</li>
+                            <li>Fayetteville, AR 72701</li>
+                        </a>
+                        <li>
+                            <br><a href="tel:+14795279577">(479) 527-9577</a></li>
+                    </ul>
+                    <div class="icons-row"> <a href="https://www.instagram.com/elburritolocoar/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a> <a href="https://www.facebook.com/Colombiamex/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a> </div>
+                </div>
+                <div class="map-info col-sm-12 col-md-9 col-lg-5">
+                    <div class="overlay" onClick="style.pointerEvents='none'"></div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.624047817606!2d-94.1923983500432!3d36.05388011695583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c96f00dbd8fad1%3A0xb950c51c7eaf881!2sBurrito+Loco!5e0!3m2!1sen!2sus!4v1478462197178" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="fb-info col-lg-4">
+                    <div class="fb-page" data-href="https://www.facebook.com/Colombiamex/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/Colombiamex/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Colombiamex/">El Burrito Loco- Fayetteville</a></blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="https://use.fontawesome.com/39a89fd104.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-88799757-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
